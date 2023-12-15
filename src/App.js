@@ -10,7 +10,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="w-100 h-100 d-flex justify-content-center align-items-center">
       <h1>Fetched data bellow</h1>
       <h2>{!data ? 'Loading...' : data}</h2>
     </div>
